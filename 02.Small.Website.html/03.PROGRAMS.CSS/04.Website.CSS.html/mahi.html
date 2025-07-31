@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- Enter ur name : <input type="text"> <br>
+Enter ur father's Name  : <input type="text"> <br>
+Enter ur last Name : <input type="text"> <br>
+<br><br><br><br>
+<table>
+    <tr>
+        <th>Enter ur name  </th>
+        <th> : &nbsp; <input type="text"></th>
+    </tr>
+    <tr>
+        <th>Enter ur father's Name </th>
+        <th> : &nbsp; <input type="text"></th>
+    </tr>
+    <tr>
+        <th>Enter ur last Name </th>
+        <th> : &nbsp; <input type="text"></th>
+    </tr>
+</table> -->
+
+<!-- <label for="fname">First Name: </label>
+<input type="text" id="fname"> -->
+
+<!-- <form action="mailto:amantiwari8861@gmail.com" method="post" autocomplete="off"> -->
+<!-- <form action="mailto:amantiwari8861@gmail.com" method="post" > -->
+<form  method="get" autocomplete="off" >
+    <label for="fname">First Name: </label>
+    <input type="text" id="fname"  name="firstName" autofocus placeholder="enter ur  name" maxlength="8" minlength="2" pattern="[A-Za-z ]{2,8}" title="pls input number only in range between 2-8">
+    <br>
+    Email  : <input type="email" name="" id="" required><br>
+    password : <input type="password" name="" id=""> <br>
+    age: <input type="number" name="" id=""><br>
+    DOB : <input type="date" name="" id=""> <br>
+    check in time : <input type="time" name="" id=""><br>
+    week : <input type="week" name="" id=""><br>
+    month : <input type="month" name="" id="">
+    Joining :<input type="datetime-local" name="" id="">
+    <br>gender : <br>
+    <input type="radio" name="gen" id=""> Male 
+    <input type="radio" name="gen" id=""> FeMale 
+    <input type="radio" name="gen" id=""> Others 
+    <br>
+    Skills : 
+    C <input type="checkbox" name="" id="">
+    C++ <input type="checkbox" name="" id="">
+    Java <input type="checkbox" name="" id="">
+    Python <input type="checkbox" name="" id="">
+    RUST <input type="checkbox" name="" id="">
+    <br>
+    color :<input type="color" name="" id=""><br>
+    signature&resume : <input type="file" name="" id="" accept=".pdf,.png,.jpg,.jpeg" multiple><br>
+    address : <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <button>my button</button>
+    <input type="button" value="click me ">
+    <select name="" id="">
+        <option value="in">india</option>
+        <option value="in">india</option>
+        <option value="in">india</option>
+        <optgroup label="America">
+            <option value="t">Texas</option>
+            <option value="t">San Francisco</option>
+            <option value="t">san diego</option>
+        </optgroup>
+    </select> <br>
+    country : <input type="text" list="cntry">
+    <datalist id="cntry"><option value="Afghanistan">
+        <option value="Albania">
+        <option value="Algeria">
+        <option value="Andorra">
+        <option value="Angola">
+        <option value="Antigua and Barbuda">
+        <option value="Argentina">
+        <option value="Armenia">
+        <option value="Australia">
+        <option value="Austria">
+        <option value="Azerbaijan">
+        <option value="Bahamas">
+        <option value="Bahrain">
+        <option value="Bangladesh">
+        <option value="Barbados">
+        <option value="Belarus">
+        <option value="Belgium">
+        <option value="Belize">
+        <option value="Benin">
+        <option value="Bhutan">
+        <option value="Bolivia">
+        <option value="Bosnia and Herzegovina">
+        <option value="Botswana">
+        <option value="Brazil">
+        <option value="Brunei">
+        <option value="Bulgaria">
+        <option value="Burkina Faso">
+        <option value="Burundi">
+        <option value="Cabo Verde">
+        <option value="Cambodia">
+        <option value="Cameroon">
+        <option value="Canada">
+        <option value="Central African Republic">
+        <option value="Chad">
+        <option value="Chile">
+        <option value="China">
+        <option value="Colombia">
+        <option value="Comoros">
+        <option value="Congo (Congo-Brazzaville)">
+        <option value="Congo (Democratic Republic)">
+        <option value="Costa Rica">
+        <option value="Croatia">
+        <option value="Cuba">
+        <option value="Cyprus">
+        <option value="Czech Republic">
+        <option value="Denmark">
+        <option value="Djibouti">
+        <option value="Dominica">
+        <option value="Dominican Republic">
+        <option value="Ecuador">
+        <option value="Egypt">
+        <option value="El Salvador">
+        <option value="Equatorial Guinea">
+        <option value="Eritrea">
+        <option value="Estonia">
+        <option value="Eswatini">
+        <option value="Ethiopia">
+        <option value="Fiji">
+        <option value="Finland">
+        <option value="France">
+        <option value="Gabon">
+        <option value="Gambia">
+        <option value="Georgia">
+        <option value="Germany">
+        <option value="Ghana">
+        <option value="Greece">
+        <option value="Grenada">
+        <option value="Guatemala">
+        <option value="Guinea">
+        <option value="Guinea-Bissau">
+        <option value="Guyana">
+        <option value="Haiti">
+        <option value="Honduras">
+        <option value="Hungary">
+        <option value="Iceland">
+        <option value="India">
+        <option value="Indonesia">
+        <option value="Iran">
+        <option value="Iraq">
+        <option value="Ireland">
+        <option value="Israel">
+        <option value="Italy">
+        <option value="Jamaica">
+        <option value="Japan">
+        <option value="Jordan">
+        <option value="Kazakhstan">
+        <option value="Kenya">
+        <option value="Kiribati">
+        <option value="Kuwait">
+        <option value="Kyrgyzstan">
+        <option value="Laos">
+        <option value="Latvia">
+        <option value="Lebanon">
+        <option value="Lesotho">
+        <option value="Liberia">
+    </datalist>
+    <br>
+    <input type="reset" value="clear form">
+    <input type="submit" value="submit form">
+    <button type="submit"> Submit form</button>
+</form>
+
+</body>
+</html>

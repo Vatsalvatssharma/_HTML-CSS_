@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    header{
+        background-color: chartreuse;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 10px;
+        align-items: center;
+    }
+    header .left span{
+        display:  inline-block;
+        background-color: brown;
+        font-size: 2rem;
+    }
+    header .right{
+        flex-grow: 6;
+        align-self: flex-end;
+    }
+    header .left{
+        flex-grow: 2;
+        
+    
+    }
+    header nav ul li {
+        
+        list-style-type: none;
+        background-color: rgb(194, 41, 41);
+        padding: 10px;
+         border-radius: 5px ;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+       
+    }
+    header nav ul {
+        display: flex;
+        gap: 10px;
+    }
+   </style> 
+
+
+
+<div class="container">
+    <header> 
+        <!-- .left+.right--press -->
+        <div class="left">
+            <span>LOGO</span>
+        </div>
+        
+        <div class="right">
+           <!-- nav>ul>li>a{link $}*4-press */ -->
+           <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li> <a href="">RESUME</a></li>
+                <li> <a href="">PROJECT</a></li>
+                <li> <a href="">CONTACT</a></li>
+            </ul>
+           </nav>
+
+
+        </div>
+    </header>
+</div>
+</body>
+</html>
